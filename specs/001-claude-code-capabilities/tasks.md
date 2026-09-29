@@ -107,9 +107,9 @@
 
 ### Implementation for User Story 5
 
-- [ ] T026 [US5] Implement token utilization estimator and compaction summarizer in `agent/lib/compaction.ts` preserving task goals, modified files, and prompt cache boundaries
-- [ ] T027 [US5] Integrate automated 75% threshold compaction trigger into conversation turn cycle in `agent/agent.ts`
-- [ ] T028 [P] [US5] Implement explicit on-demand `/compact` command capability in `agent/instructions.md`
+- [X] T026 [US5] Implement token utilization estimator and compaction summarizer in `agent/lib/compaction.ts` preserving task goals, modified files, and prompt cache boundaries
+- [X] T027 [US5] Integrate automated 75% threshold compaction trigger into conversation turn cycle in `agent/agent.ts`
+- [X] T028 [P] [US5] Implement explicit on-demand `/compact` command capability in `agent/instructions.md`
 
 **Checkpoint**: Context window compaction operates reliably to prevent context overflow.
 
