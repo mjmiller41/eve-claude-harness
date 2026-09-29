@@ -91,9 +91,9 @@
 
 ### Implementation for User Story 4
 
-- [ ] T023 [US4] Implement structured task checklist management tool (`init`, `list`, `get`, `update`) in `agent/tools/task_tracker.ts`
-- [ ] T024 [P] [US4] Implement structured code quality, security, and audit finding reporting tool in `agent/tools/report_findings.ts`
-- [ ] T025 [P] [US4] Author behavioral evaluation suite for checklist progression and findings reporting in `evals/task-tracker.eval.ts`
+- [X] T023 [US4] Implement structured task checklist management tool (`init`, `list`, `get`, `update`) in `agent/tools/task_tracker.ts`
+- [X] T024 [P] [US4] Implement structured code quality, security, and audit finding reporting tool in `agent/tools/report_findings.ts`
+- [X] T025 [P] [US4] Author behavioral evaluation suite for checklist progression and findings reporting in `evals/task-tracker.eval.ts`
 
 **Checkpoint**: Observable task checklists and structured findings reporting are operational.
 
