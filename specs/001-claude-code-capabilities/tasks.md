@@ -58,10 +58,10 @@
 
 ### Implementation for User Story 2
 
-- [ ] T016 [P] [US2] Implement interactive clarification tool supporting single-select and multi-select menus with write-in options in `agent/tools/ask_question.ts`
-- [ ] T017 [US2] Wire dynamic approval gates into `agent/lib/permissions.ts` to intercept destructive operations (`rm`, `git reset`, `.env` modifications) with human confirmation
-- [ ] T018 [US2] Implement file checkpoint rollback and rewind tool in `agent/tools/rewind.ts` reverting modified files back to state at specified historical turn
-- [ ] T019 [P] [US2] Author behavioral evaluation suite verifying Auto Mode approval gates and steering in `evals/approval-gates.eval.ts`
+- [X] T016 [P] [US2] Implement interactive clarification tool supporting single-select and multi-select menus with write-in options in `agent/tools/ask_question.ts`
+- [X] T017 [US2] Wire dynamic approval gates into `agent/lib/permissions.ts` to intercept destructive operations (`rm`, `git reset`, `.env` modifications) with human confirmation
+- [X] T018 [US2] Implement file checkpoint rollback and rewind tool in `agent/tools/rewind.ts` reverting modified files back to state at specified historical turn
+- [X] T019 [P] [US2] Author behavioral evaluation suite verifying Auto Mode approval gates and steering in `evals/approval-gates.eval.ts`
 
 **Checkpoint**: User Stories 1 and 2 deliver grounded coding with developer steering and fail-safe safety gates.
 

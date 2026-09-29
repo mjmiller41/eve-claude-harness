@@ -177,3 +177,45 @@ export function evaluatePermission(
 
   return { requiresApproval: false };
 }
+
+/**
+ * Creates an Eve tool approval policy function compatible with Eve's approval mechanism.
+ */
+export function createApprovalPolicy(mode: PermissionMode = "auto") {
+  return ({
+    toolName,
+    toolInput,
+  }: {
+    toolName?: string;
+    toolInput?: Record<string, unknown>;
+  }) => {
+    const filePath =
+      typeof toolInput?.filePath === "string"
+        ? toolInput.filePath
+        : typeof toolInput?.notebookPath === "string"
+          ? toolInput.notebookPath
+          : undefined;
+
+    const command = typeof toolInput?.command === "string" ? toolInput.command : undefined;
+    const action = typeof toolInput?.action === "string" ? toolInput.action : undefined;
+    const overwrite = toolInput?.overwrite === true;
+
+    const evaluation = evaluatePermission(mode, {
+      toolName: toolName ?? "",
+      command,
+      filePath,
+      action,
+      overwrite,
+      proposedAction: toolInput,
+    });
+
+    if (evaluation.requiresApproval) {
+      return "user-approval";
+    }
+
+    return "not-applicable";
+  };
+}
+
+export const eveApprovalPolicy = createApprovalPolicy("auto");
+
