@@ -136,3 +136,17 @@ export interface JupyterNotebook {
   nbformat_minor: number;
 }
 
+export interface ScopedRule {
+  id: string;
+  filePath: string;
+  description?: string;
+  paths: string[];
+  content: string;
+}
+
+export interface ScopedRuleMatchResult {
+  matchedRules: ScopedRule[];
+  touchedFiles: string[];
+  formattedInstructions: string;
+}
+
