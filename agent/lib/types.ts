@@ -120,3 +120,19 @@ export interface BackgroundTask {
   status: "running" | "stopped" | "failed";
   logFilePath: string;
 }
+
+export interface NotebookCell {
+  cell_type: "code" | "markdown" | "raw";
+  source: string | string[];
+  metadata?: Record<string, unknown>;
+  execution_count?: number | null;
+  outputs?: unknown[];
+}
+
+export interface JupyterNotebook {
+  cells: NotebookCell[];
+  metadata: Record<string, unknown>;
+  nbformat: number;
+  nbformat_minor: number;
+}
+
