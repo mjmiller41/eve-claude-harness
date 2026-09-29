@@ -82,3 +82,10 @@ By default, the harness operates in **Auto Mode**:
 - **`researcher`**: Delegate broad, read-only codebase exploration, dependency auditing, or documentation lookups to the researcher subagent to keep the primary context focused.
 - **`advisor`**: Consult the senior architectural advisor (powered by Claude Opus 5.5 with high reasoning) for critical design decisions, schema migrations, or complex tradeoff evaluations.
 - **Worktree Workers**: Any delegated subagent performing autonomous file writes executes within an isolated Git worktree (`.worktrees/`) to prevent workspace collisions.
+
+---
+
+# Scoped Rules Engine & Sandboxing Boundaries
+
+- **Scoped Rules Engine**: Modular rules defined in `.claude/rules/*.md` and `agent/rules/*.md` use `paths:` frontmatter to activate conditionally when matching files are inspected or modified, minimizing context overhead.
+- **Execution Sandboxing**: Shell executions and untrusted processes adhere to Eve's execution sandbox boundaries (`agent/sandbox.ts`), enforcing workspace containment and preventing unauthorized host filesystem access.

@@ -210,3 +210,13 @@ flowchart TD
    - Add `task_tracker`, `report_findings`, context compaction, `researcher`, `advisor`, worktree isolation, and web search/fetch.
 4. **Final Polish & Evaluation (Phase 10)**:
    - System prompt instructions update, `quickstart.md` verification, `typecheck`, and `eve eval`.
+
+---
+
+## Phase 11: Convergence
+
+**Purpose**: Close remaining implementation gaps identified during convergence assessment for scoped rules engine, execution sandboxing, and their automated behavioral evaluations.
+
+- [X] T039 Implement scoped instruction rules resolution engine in `agent/lib/rules.ts` activating guidelines based on touched file path patterns per FR-021 (missing)
+- [X] T040 Define Eve execution sandbox configuration in `agent/sandbox.ts` enforcing isolation policies per FR-022 and FR-024 (missing)
+- [X] T041 Author behavioral evals and verification suite in `evals/rules-and-sandbox.eval.ts` per Constitution IV (missing)
