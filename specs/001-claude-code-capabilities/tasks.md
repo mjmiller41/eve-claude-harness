@@ -151,10 +151,10 @@
 
 **Purpose**: Agent instructions refinement, system prompt guidelines, end-to-end quickstart validation, and documentation updates.
 
-- [ ] T035 [US1] Update master system instructions with tool usage guidelines, perception-action-verification loop rules, and safety protocols in `agent/instructions.md`
-- [ ] T036 Run end-to-end quickstart scenarios in `specs/001-claude-code-capabilities/quickstart.md` using `eve dev`
-- [ ] T037 [P] Run full TypeScript typecheck (`npm run typecheck`) and verify zero errors
-- [ ] T038 Execute complete evaluation suite (`eve eval`) and verify all test cases pass
+- [X] T035 [US1] Update master system instructions with tool usage guidelines, perception-action-verification loop rules, and safety protocols in `agent/instructions.md`
+- [X] T036 Run end-to-end quickstart scenarios in `specs/001-claude-code-capabilities/quickstart.md` using `eve dev`
+- [X] T037 [P] Run full TypeScript typecheck (`npm run typecheck`) and verify zero errors
+- [X] T038 Execute complete evaluation suite (`eve eval`) and verify all test cases pass
 
 ---
 
