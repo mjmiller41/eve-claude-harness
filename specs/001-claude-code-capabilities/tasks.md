@@ -123,10 +123,10 @@
 
 ### Implementation for User Story 6
 
-- [ ] T029 [P] [US6] Author read-only researcher subagent definition and prompt in `agent/subagents/researcher/agent.ts` and `agent/subagents/researcher/instructions.md`
-- [ ] T030 [P] [US6] Author architectural advisor subagent definition with Opus 5.5 and high reasoning in `agent/subagents/advisor/agent.ts` and `agent/subagents/advisor/instructions.md`
-- [ ] T031 [US6] Implement Git worktree isolation helper for modifying subagents in `agent/lib/worktree.ts` managing branch provisioning and cleanup
-- [ ] T032 [P] [US6] Author behavioral evaluation suite verifying subagent delegation and isolation in `evals/subagents.eval.ts`
+- [X] T029 [P] [US6] Author read-only researcher subagent definition and prompt in `agent/subagents/researcher/agent.ts` and `agent/subagents/researcher/instructions.md`
+- [X] T030 [P] [US6] Author architectural advisor subagent definition with Opus 5.5 and high reasoning in `agent/subagents/advisor/agent.ts` and `agent/subagents/advisor/instructions.md`
+- [X] T031 [US6] Implement Git worktree isolation helper for modifying subagents in `agent/lib/worktree.ts` managing branch provisioning and cleanup
+- [X] T032 [P] [US6] Author behavioral evaluation suite verifying subagent delegation and isolation in `evals/subagents.eval.ts`
 
 **Checkpoint**: Specialist subagents and worktree isolation operate independently.
 
