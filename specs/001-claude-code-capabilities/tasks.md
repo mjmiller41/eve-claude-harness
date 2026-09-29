@@ -75,9 +75,9 @@
 
 ### Implementation for User Story 3
 
-- [ ] T020 [US3] Implement native shell execution tool with persistent cwd tracking and workspace root containment in `agent/tools/bash.ts`
-- [ ] T021 [US3] Implement background process manager tool (`list`, `status`, `kill`, `send_input`) in `agent/tools/background_task.ts`
-- [ ] T022 [P] [US3] Author behavioral evaluation suite for shell execution, timeouts, and background task management in `evals/shell-execution.eval.ts`
+- [X] T020 [US3] Implement native shell execution tool with persistent cwd tracking and workspace root containment in `agent/tools/bash.ts`
+- [X] T021 [US3] Implement background process manager tool (`list`, `status`, `kill`, `send_input`) in `agent/tools/background_task.ts`
+- [X] T022 [P] [US3] Author behavioral evaluation suite for shell execution, timeouts, and background task management in `evals/shell-execution.eval.ts`
 
 **Checkpoint**: Shell execution and background task lifecycle management are fully operational.
 
