@@ -38,13 +38,13 @@
 
 ### Implementation for User Story 1
 
-- [ ] T009 [P] [US1] Implement bounded file reader tool with line numbering, offset, and limit pagination in `agent/tools/read_file.ts`
-- [ ] T010 [P] [US1] Implement regex content search tool with ripgrep compatibility in `agent/tools/grep.ts`
-- [ ] T011 [P] [US1] Implement pattern-based file matching tool in `agent/tools/glob.ts`
-- [ ] T012 [US1] Implement atomic file creation and overwrite tool with recursive directory auto-creation in `agent/tools/write_file.ts`
-- [ ] T013 [US1] Implement exact-match file editing tool with target validation and uniqueness checking in `agent/tools/edit_file.ts`
-- [ ] T014 [P] [US1] Implement Jupyter notebook cell inspection and editing tool in `agent/tools/notebook_edit.ts`
-- [ ] T015 [US1] Author behavioral evaluation suite verifying the perception-action-verification loop in `evals/coding-loop.eval.ts`
+- [X] T009 [P] [US1] Implement bounded file reader tool with line numbering, offset, and limit pagination in `agent/tools/read_file.ts`
+- [X] T010 [P] [US1] Implement regex content search tool with ripgrep compatibility in `agent/tools/grep.ts`
+- [X] T011 [P] [US1] Implement pattern-based file matching tool in `agent/tools/glob.ts`
+- [X] T012 [US1] Implement atomic file creation and overwrite tool with recursive directory auto-creation in `agent/tools/write_file.ts`
+- [X] T013 [US1] Implement exact-match file editing tool with target validation and uniqueness checking in `agent/tools/edit_file.ts`
+- [X] T014 [P] [US1] Implement Jupyter notebook cell inspection and editing tool in `agent/tools/notebook_edit.ts`
+- [X] T015 [US1] Author behavioral evaluation suite verifying the perception-action-verification loop in `evals/coding-loop.eval.ts`
 
 **Checkpoint**: User Story 1 is fully functional and testable as a standalone MVP.
 
