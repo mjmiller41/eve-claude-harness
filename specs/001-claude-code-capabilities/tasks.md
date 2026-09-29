@@ -140,8 +140,8 @@
 
 ### Implementation for User Story 7
 
-- [ ] T033 [P] [US7] Implement authoritative technical web search tool with domain filtering in `agent/tools/web_search.ts`
-- [ ] T034 [P] [US7] Implement web URL content fetcher converting HTML to clean markdown text in `agent/tools/web_fetch.ts`
+- [X] T033 [P] [US7] Implement authoritative technical web search tool with domain filtering in `agent/tools/web_search.ts`
+- [X] T034 [P] [US7] Implement web URL content fetcher converting HTML to clean markdown text in `agent/tools/web_fetch.ts`
 
 **Checkpoint**: Web documentation search and content ingestion are operational.
 
