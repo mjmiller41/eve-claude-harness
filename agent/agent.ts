@@ -3,6 +3,9 @@ import { auto } from "eve/models";
 
 export default defineAgent({
   reasoning: "medium",
+  compaction: {
+    thresholdPercent: 0.75,
+  },
   model: auto({
     options: {
       "opus_5.5": {
