@@ -20,11 +20,11 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this foundational phase is complete.
 
-- [ ] T004 Implement workspace path normalization and security containment helper in `agent/lib/workspace.ts` enforcing `path.relative(repoRoot, targetPath).startsWith('..') === false`
-- [ ] T005 [P] Implement permission inspection engine and Auto Mode policy evaluator in `agent/lib/permissions.ts` supporting modes `"auto" | "accept_edits" | "manual"`
-- [ ] T006 [P] Implement file snapshot and rollback store in `agent/lib/checkpoint-manager.ts` capturing `{ filePath: string, contentBefore: string, checksum: string }` per turn
-- [ ] T007 Implement process management and output buffer capping in `agent/lib/shell-manager.ts` with 30s timeout and 40KB output limit
-- [ ] T008 [P] Implement Jupyter notebook JSON cell extractor and serializer in `agent/lib/notebook-parser.ts`
+- [X] T004 Implement workspace path normalization and security containment helper in `agent/lib/workspace.ts` enforcing `path.relative(repoRoot, targetPath).startsWith('..') === false`
+- [X] T005 [P] Implement permission inspection engine and Auto Mode policy evaluator in `agent/lib/permissions.ts` supporting modes `"auto" | "accept_edits" | "manual"`
+- [X] T006 [P] Implement file snapshot and rollback store in `agent/lib/checkpoint-manager.ts` capturing `{ filePath: string, contentBefore: string, checksum: string }` per turn
+- [X] T007 Implement process management and output buffer capping in `agent/lib/shell-manager.ts` with 30s timeout and 40KB output limit
+- [X] T008 [P] Implement Jupyter notebook JSON cell extractor and serializer in `agent/lib/notebook-parser.ts`
 
 **Checkpoint**: Core foundational utilities ready — user story implementation can now proceed.
 
